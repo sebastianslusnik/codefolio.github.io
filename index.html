@@ -1,19 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>.CodeFolio</title>
-  <link rel="icon" type="image/png" href="c.png" />
-  <link rel="stylesheet" href="styles.css">
-  <meta charset="UTF-8">
-</head>
-<body>
 <div id="container" align="center">
-  <input id="inputAccount" value="" placeholder="Your LiveAgent URL (something.ladesk.com)"/>
-  <input id="submitInput" type="submit" value="Get Version"/>
+  <input id="inputAccount" value="" placeholder="Your LiveAgent URL [something.ladesk.com]"/>
+  <button id="submitInput" type="submit" value="Get Version">Get Version<img id="loading" src="https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif" /></button>
+  <span id="action">&times;</span>
   <span id="description">
-    Paste the URL address of your agent panel
+    Paste the URL address of your agent panel - https://<strong><u>something.ladesk.com</u></strong>/agent/index.php?...
+  </span>
+  <span id="description2">
+    You've most likely provided an <strong><u>incorrect LiveAgent URL</u></strong>
+  </span>
+  <span id="description3">
+    LiveAgent URL is <strong><u>mandatory</u></strong>!
   </span>
 </div>
-<script src="script.js"></script>
-</body>
-</html>

@@ -1,11 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#header {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: -145px;
+  left: -25px;
+  text-align: left;
+  color: #333;
+}
+#paragraph1 {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: -95px;
+  left: -25px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  color: #333;
+}
 #container {
   width: 600px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-left: 10px;
+  top: 120px;
+  left: 26px;
 }
 #inputAccount {
   position: absolute;
@@ -95,15 +111,17 @@
 }
 #description2 {
   position: absolute;
-  top: 10px;
-  left: -20px;
+  top: 4px;
+  left: -24px;
   font-family: "Poppins", sans-serif;
-  width: 600px;
+  width: auto;
   display: block;
   text-align: left;
-  padding: 0;
-  color: #333;
-  font-weight: 400;
+  padding: 6px 20px 14px;
+  border-radius: 6px;
+  color: #f1f1f1;
+  background-color: #222;
+  font-weight: 500;
   font-size: 12px;
   outline: none;
   transition: .3s;
@@ -111,15 +129,17 @@
 }
 #description3 {
   position: absolute;
-  top: 10px;
-  left: -20px;
+  top: 4px;
+  left: -24px;
   font-family: "Poppins", sans-serif;
-  width: 600px;
+  width: auto;
   display: block;
   text-align: left;
-  padding: 0;
-  color: #333;
-  font-weight: 400;
+  padding: 6px 20px 14px;
+  border-radius: 6px;
+  color: #f1f1f1;
+  background-color: #222;
+  font-weight: 500;
   font-size: 12px;
   outline: none;
   transition: .3s;
